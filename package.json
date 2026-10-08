@@ -1,0 +1,26 @@
+{
+  "name": "freedcamp-cli",
+  "version": "0.1.0",
+  "description": "Command-line tool and MCP server for Freedcamp: projects, milestones, task lists, tasks and comments, with secured-key (HMAC) auth.",
+  "type": "module",
+  "bin": {
+    "freedcamp": "bin/freedcamp.mjs",
+    "freedcamp-mcp": "bin/freedcamp-mcp.mjs"
+  },
+  "exports": {
+    ".": "./lib/client.mjs",
+    "./config": "./lib/config.mjs"
+  },
+  "files": ["bin", "lib"],
+  "engines": { "node": ">=20" },
+  "scripts": { "test": "node --test" },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.30.0",
+    "zod": "^3.23.8"
+  },
+  "keywords": ["freedcamp", "cli", "mcp", "project-management", "tasks"],
+  "repository": { "type": "git", "url": "git+https://github.com/firedanceio/freedcamp-cli.git" },
+  "homepage": "https://github.com/firedanceio/freedcamp-cli",
+  "license": "Apache-2.0",
+  "author": "Firedance (https://firedance.io)"
+}
