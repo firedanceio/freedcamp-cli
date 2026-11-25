@@ -22,5 +22,5 @@
   "repository": { "type": "git", "url": "git+https://github.com/firedanceio/freedcamp-cli.git" },
   "homepage": "https://github.com/firedanceio/freedcamp-cli",
   "license": "Apache-2.0",
-  "author": "Firedance (https://firedance.io)"
+  "author": "Firedance (https://www.getfiredance.com)"
 }

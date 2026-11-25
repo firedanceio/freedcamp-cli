@@ -100,5 +100,5 @@ const { projects } = await fc.listProjects();
 
 ## Licence
 
-Apache-2.0. Made by [Firedance](https://firedance.io), where it keeps our task tracker in step
+Apache-2.0. Made by [Firedance](https://www.getfiredance.com), where it keeps our task tracker in step
 with the work.
